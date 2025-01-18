@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.28.3)
 
+set(CMAKE_CXX_VISIBILITY_PRESET hidden)
+set(CMAKE_VISIBILITY_INLINES_HIDDEN YES)
+
 project(foo LANGUAGES CXX VERSION 1.0.0)
 
 add_library(foo)
