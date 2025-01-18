@@ -8,7 +8,7 @@ target_compile_features(foo PUBLIC cxx_std_20)
 
 target_sources(foo
     PRIVATE
-        src/foo.cpp        
+        foo/foo.cpp        
     PUBLIC
         FILE_SET HEADERS
         BASE_DIRS .
