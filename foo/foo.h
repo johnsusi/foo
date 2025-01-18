@@ -1,3 +1,5 @@
 #pragma once
 
-void foo();
+#include "foo_export.h"
+
+FOO_EXPORT void foo();
