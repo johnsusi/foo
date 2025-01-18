@@ -11,6 +11,7 @@ add_library(foo)
 generate_export_header(foo)
 
 target_compile_features(foo PUBLIC cxx_std_20)
+target_include_directories(foo PUBLIC ${CMAKE_BINARY_DIR})
 
 target_sources(foo
     PRIVATE
